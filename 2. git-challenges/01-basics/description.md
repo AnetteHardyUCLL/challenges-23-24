@@ -79,6 +79,23 @@ To complete this challenge successfully, you should start a Git bash session in 
 
 Create a subfolder named 'challenge-1' in the '01-basics' folder. Create a new file "solution.txt" with the text `challenge 1 completed` on the first line. Make sure that this folder is pushed to your remote repository.
 
+### 3.3. Add, commit and push all untracked files
+
+We will now make sure that all our files are tracked by git. If you have been following the challenges only your solution to this challenge has been pushed to GitHub. All the other files you copied from the source repository are not yet pushed.
+
+By running the following commands you add all your changed and untracked files to a commit with a descriptive message:
+
+ ```console
+    $ git add -A
+    $ git commit -m "Commit all remaining challenges"
+```
+
+Afterwards you can push the commit to your repository:
+
+```console
+    $ git push
+```
+
 ## 4. General rules
 
 In order to get a "SUCCESS" from the verify script, you will need to make sure that:
